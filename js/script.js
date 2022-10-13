@@ -11,7 +11,7 @@ for(let i = 1; i <= limit; i++){
 
   if(i % 15 == 0){
     box.classList.add('rossetto');
-    box.innerHTML = 'FizzBozz';
+    box.innerHTML = 'FizzBuzz';
     container.append(box);
     console.log('buzz');
   }else if(i % 5 == 0){
