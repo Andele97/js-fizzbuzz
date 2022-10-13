@@ -13,7 +13,6 @@ for(let i = 1; i <= limit; i++){
     box.classList.add('rossetto');
     box.innerHTML = 'FizzBuzz';
     container.append(box);
-    console.log('buzz');
   }else if(i % 5 == 0){
     box.classList.add('rosa');
     container.append(box);
@@ -22,7 +21,6 @@ for(let i = 1; i <= limit; i++){
     box.classList.add('rosa-chiaro');
     container.append(box);
     box.innerHTML = 'Fizz';
-    console.log('fizz');
   }else{
     box.innerHTML = i;
     container.append(box);
